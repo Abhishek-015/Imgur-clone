@@ -35,10 +35,13 @@
         <div class="nav-mid">
           <div class="input-search">
             <input
+              id="input"
+              oninput="debounce(deb,1000)"
               class="search-box"
               type="text"
               placeholder="Images,#tags,@users oh my!"
             />
+         
             <button class="search-btn">
               <img
                 src="https://s.imgur.com/desktop-assets/desktop-assets/icon-search.8d0f9b564a4659d48d8eca38b968a7f2.svg"
@@ -68,10 +71,19 @@
           </div>
         </div>
       </div>
+      <div id="list">
+        <!-- <p>data1</p>
+        <p>data1</p>
+        <p>data1</p>
+        <p>data1</p>
+        <p>data1</p>
+        <p>data1</p> -->
+      </div>
       <!-- title -->
       <div>
         <h4 class="title">Be excellent to one another</h4>
       </div>
+     
       <div class="tags">
         <div class="tags-title">
           <p>EXPLORE TAGS</p>

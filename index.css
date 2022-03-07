@@ -255,3 +255,26 @@ border-radius: 2px;
   margin-left:3px ;
 }
 /* https://api.unsplash.com/search/photos?query=london&client_id=ERaqzjfKJiqyDoOTa3WsgaOiBujjJLtUSIDSB2CtfW4 */
+
+
+/* debounce data */
+#list{
+    z-index: 1;
+    position: absolute;
+    margin-left:410px ;
+    background-color: white;
+    width: 560px;
+    border-radius: 5px;
+    max-height: 400px;
+    overflow: scroll;
+    display: none;
+}
+#list p{
+    margin: 0;
+    padding: 5px 6px;
+    font-size: 15px;
+}
+#list p:hover{
+    background-color: #485472;
+    color: white;
+}
