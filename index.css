@@ -1,0 +1,257 @@
+* {
+  font-family: "Proxima Nova Regular", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#root {
+  background: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png")
+    no-repeat;
+  height: 400px;
+  background-color: rgb(54, 51, 51);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 5px 15px;
+}
+.left-nav {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+.icon {
+  display: flex;
+  justify-content: space-around;
+}
+.icon img {
+  width: 94px;
+  height: 34px;
+  margin: 10px;
+}
+.nav-btn {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Proxima Nova Regular", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  background-color: #1bb76e;
+  height: 40px;
+  width: 120px;
+  border: none;
+  margin: auto;
+  padding: auto;
+  margin-top: 8px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-btn img {
+  margin-top: 10px;
+  height: 22px;
+  width: 22px;
+}
+.nav-btn span {
+  margin-top: 10px;
+  color: white;
+}
+
+.nav-mid {
+  width: 50%;
+}
+
+.input-search {
+  text-align: center;
+  margin: auto;
+}
+
+.search-box {
+  background-color: #485472;
+  margin-top: 6px;
+  width: 550px;
+  height: 36px;
+  font-size: 16px;
+  font-family: "Proxima Nova Regular", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.search-btn {
+  width: 20px;
+  z-index: 1;
+  margin-left: -35px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 13px;
+}
+.nav-right {
+  width: 25%;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.badge {
+  background-color: transparent;
+  font-size: 100px;
+}
+
+.badge img {
+  color: white;
+}
+.badge i {
+  /* height: 10px;
+    width: 50px; */
+  margin-right: 50px;
+  color: white;
+  font-size: 30px;
+  margin-top: 8px;
+}
+.badge i:hover {
+  opacity: 0.4;
+}
+.add {
+  background-color: #6432f9;
+}
+.remove {
+  background-color: transparent;
+}
+
+.title {
+  font-family: "Proxima Nova ExtraBold", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 24px;
+  color: #aed8ea;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tags {
+  width: 80%;
+  margin: auto;
+  /* background-color: #1bb76e; */
+  height: 50px;
+}
+.tags-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tags p {
+  color: #babec4;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+/* cards */
+
+#active-tags {
+  display: flex;
+  margin: 2px;
+}
+
+.card {
+  width: 11%;
+  margin-right: 5px;
+border-radius: 2px;
+}
+.card:hover {
+  transform: scale(1.01);
+  transition: 0.1sec;
+}
+
+.card-img img {
+  width: 128px;
+  height: 80px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.desc {
+  background-color: #027b89;
+  color: white;
+  margin-top: -5px;
+  height: 60px;
+}
+.desc h4 {
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 0;
+  margin: 0;
+}
+.desc p {
+  text-align: center;
+  color: #babec4;
+  font-size: 10px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+#virals {
+  background-color: rgb(65, 63, 63);
+  margin-top: 180px;
+}
+.viral{
+    background-color: rgb(65, 63, 63);
+    padding: 0 100px;
+
+}
+.tags-viral p{
+    color: #babec4;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top:10px ;
+}
+#viral-tags {
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card-viral {
+  width: 18%;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.imgViral img{
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+  margin: 0;
+}
+.desc-viral {
+  background-color: #027b89;
+  color: white;
+  margin-top: -10px;
+  height: 60px;
+  width: 250px;
+  margin-bottom: 12px;
+}
+.desc-viral h4 {
+  font-size: 14px;
+  padding: 10px 0;
+  margin: 0;
+  margin-left: 3px;
+}
+.desc-viral p {
+  font-size: 10px;
+  margin: 0;
+  padding-bottom: 5px;
+  margin-left:3px ;
+}
+/* https://api.unsplash.com/search/photos?query=london&client_id=ERaqzjfKJiqyDoOTa3WsgaOiBujjJLtUSIDSB2CtfW4 */

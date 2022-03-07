@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imgur</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="root">
+      <!-- navbar -->
+      <div class="nav">
+        <div class="left-nav">
+          <div class="icon">
+            <img
+              src="https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/16972/h7vdiitnQ3ieUPa5x2uC"
+              alt=""
+            />
+          </div>
+          <div>
+            <a class="nav-btn" href="">
+              <img
+                src="https://s.imgur.com/desktop-assets/desktop-assets/icon-new-post.13ab64f9f36ad8f25ae3544b350e2ae1.svg"
+                alt=""
+              />
+              <span>New Post</span>
+            </a>
+          </div>
+        </div>
+        <div class="nav-mid">
+          <div class="input-search">
+            <input
+              class="search-box"
+              type="text"
+              placeholder="Images,#tags,@users oh my!"
+            />
+            <button class="search-btn">
+              <img
+                src="https://s.imgur.com/desktop-assets/desktop-assets/icon-search.8d0f9b564a4659d48d8eca38b968a7f2.svg"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+        <div class="nav-right">
+          <div class="nav-items">
+            <a class="nav-btn badge" href="">
+              <i class="fa-solid fa-award"></i>
+              <!-- <img
+                src="https://cdn-icons.flaticon.com/png/512/78/premium/78637.png?token=exp=1646652117~hmac=bf84b7d62e140134b943de261500b9c8"
+                alt=""
+              /> -->
+            </a>
+            <a class="nav-btn add" href="">
+              <span>Go Ad-Free</span>
+            </a>
+            <a class="nav-btn remove" href="">
+              <span> Sign In </span>
+            </a>
+            <a class="nav-btn" href="">
+              <span>Sign Up</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- title -->
+      <div>
+        <h4 class="title">Be excellent to one another</h4>
+      </div>
+      <div class="tags">
+        <div class="tags-title">
+          <p>EXPLORE TAGS</p>
+          <p>MORE TAGS +</p>
+        </div>
+        <div id="active-tags">
+          <!-- data rendered -->
+        </div>
+      </div>
+      <div id="virals">
+        <div class="viral">
+          <div class="tags-viral">
+            <p>MOST VIRAL</p>
+          </div>
+          <div id="viral-tags">
+        <!-- data renderd -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
