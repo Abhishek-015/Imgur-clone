@@ -26,7 +26,7 @@ async function showTags(){
     showData.innerHTML = details
 
 };
-// showTags()
+showTags()
 
 async function showVirals(){
     let res = await fetch(
@@ -56,7 +56,7 @@ async function showVirals(){
    
    };
 
-//    showVirals()
+   showVirals()
 
 
    //debouncing
